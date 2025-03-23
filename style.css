@@ -1,0 +1,108 @@
+.head {
+    background-color: rgb(246, 242, 242);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin-bottom: 40px;
+
+}
+
+.bt {
+    background-color: rgb(169, 243, 72);
+    padding: 8px 8px;
+    border-radius: 3px;
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.btnn {
+    background-color: rgb(169, 243, 72);
+    padding: 8px 10px;
+    border-radius: 3px;
+    width: 680px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.input {
+    width: 680px;
+    height: 50px;
+}
+
+.btn:hover {
+    background-color: rgb(169, 243, 72);
+}
+
+.div {
+    display: flex;
+    border-radius: 8px;
+    background-color: rgb(243, 243, 243);
+    padding: 8px;
+    width: 140px;
+    gap: 8px;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup {
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 30px 30px;
+    color: #333;
+
+}
+
+.open-popup {
+    visibility: visible;
+}
+
+.popup img {
+    width: 50px;
+    margin: 10px 0 10px 0;
+}
+
+.popup h1 {
+    font-size: 30px;
+    font-weight: 800;
+    margin: 30px 0px 10px;
+}
+
+.popup h2 {
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.popup p {
+    margin: 30px 0px 0px;
+}
+
+.popup button {
+    background-color: rgb(240, 229, 229);
+    padding: 8px 10px;
+    border-radius: 3px;
+    width: 180px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+}

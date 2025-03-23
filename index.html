@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header section start -->
+    <header class="head">
+        <button class="bt">Blog</button>
+        <div class="flex space-x-3">
+            <img src="images/logo.png" alt="">
+            <h2 class="text-xl font-bold">Donate Bangladesh</h2>
+        </div>
+        <div class="flex space-x-2">
+            <img src="images/coin.png" alt="">
+            <h2 class="font-bold"><span id="balance-total">5500</span> BDT</h2>
+        </div>
+    </header>
+    <!-- header section end -->
+    <!-- button section start -->
+    <div class="mb-12 flex justify-center space-x-3">
+        <button id="btn-1" class="btn btn-lg">Donation</button>
+        <button id="btn-2" class="btn btn-lg">History</button>
+    </div>
+    <!-- button section end -->
+    <!-- Donate section start -->
+    <section id="donate-section">
+        <div class="hero mb-12">
+            <div class="hero-content flex-col lg:flex-row rounded rounded-lg border-2 border-base-300">
+                <img src="images/noakhali.png" alt="">
+                <div>
+                    <div class="div">
+                        <img src="images/coin.png" alt="">
+                        <h2 class="font-bold"><span id="withdraw-total">0</span> BDT</h2>
+                    </div>
+                    <h2 class="text-xl font-bold">Donate for Flood at Noakhali, Bangladesh</h2>
+                    <p class="py-6">
+                        The recent floods in Noakhali have caused significant damage to homes infrastructure. Your
+                        donation
+                        will help provide essential supplies and to those affected by this disaster. Every contribution,
+                        big
+                        or small, makes difference. Please join us in supporting the relief efforts and making a
+                        positive
+                        impact on the lives of those in need.
+                    </p>
+                    <div class="flex flex-col space-y-2">
+                        <input id="withdraw-field" type="number" class="input" placeholder="Write Donation Amount" />
+                        <button id="btn-withdraw" class="btnn">Donate Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero mb-12">
+            <div class="hero-content flex-col lg:flex-row rounded rounded-lg border-2 border-base-300">
+                <img src="images/feni.png" alt="">
+                <div>
+                    <div class="div">
+                        <img src="images/coin.png" alt="">
+                        <h2 class="font-bold"><span id="withdraw-total-1">600</span> BDT</h2>
+                    </div>
+                    <h2 class="text-xl font-bold">Donate for Flood Relief in Feni,Bangladesh</h2>
+                    <p class="py-6">
+                        The recent floods in Feni have devastated local communities, leading to severe disruption and
+                        loss.
+                        Your generous donation will help provide immediate aid, including food, clean water, and medical
+                        supplies, to those affected by this calamity. Together, we can offer crucial support and help
+                        rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real
+                        difference. Please consider donating today to assist those in urgent need.
+                    </p>
+                    <div class="flex flex-col space-y-2">
+                        <input id="withdraw-field-1" type="number" class="input" placeholder="Write Donation Amount" />
+                        <button id="btn-withdraw-1" class="btnn">Donate Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero mb-12">
+            <div class="hero-content flex-col lg:flex-row rounded rounded-lg border-2 border-base-300">
+                <img src="images/quota-protest.png" alt="">
+                <div>
+                    <div class="div">
+                        <img src="images/coin.png" alt="">
+                        <h2 class="font-bold"><span id="withdraw-total-2">2400</span> BDT</h2>
+                    </div>
+                    <h2 class="text-xl font-bold">Aid for Injured in the Quota Movement</h2>
+                    <p class="py-6">
+                        The recent Quota movement has resulted in numerous injuries and significant hardship for many
+                        individuals. Your support is crucial in providing medical assistance, rehabilitation, and
+                        necessary
+                        supplies to those affected. By contributing, you help ensure that injured individuals receive
+                        the
+                        care and support they need during this challenging time. Every donation plays a vital role in
+                        alleviating their suffering and aiding in their recovery. Please consider making a donation to
+                        support these brave individuals in their time of need.
+                    </p>
+                    <div class="flex flex-col space-y-2">
+                        <input id="withdraw-field-2" type="number" class="input" placeholder="Write Donation Amount" />
+                        <button id="btn-withdraw-2" class="btnn">Donate Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Donate section end -->
+    <!-- Transaction section start -->
+    <div id="transaction-section" class="space-y-5 hidden">
+        <div id="transaction-section-1" class="rounded rounded-lg border-2 border-base-300 mx-28 p-8">
+            <h2 class="text-lg font-bold"></h2>
+            <p>Date : Tue Sep 17 2024 08:39:11 GMT +0600 (Bangladesh Standard Time)</p>
+        </div>
+        <div id="transaction-section-2" class="rounded rounded-lg border-2 border-base-300 mx-28 p-8">
+            <h2 class="text-lg font-bold"></h2>
+            <p>Date : Tue Sep 17 2024 08:39:11 GMT +0600 (Bangladesh Standard Time)</p>
+        </div>
+        <div id="transaction-section-3" class="rounded rounded-lg border-2 border-base-300 mx-28 p-8">
+            <h2 class="text-lg font-bold"></h2>
+            <p>Date : Tue Sep 17 2024 08:39:11 GMT +0600 (Bangladesh Standard Time)</p>
+        </div>
+    </div>
+    <!-- Transaction section end -->
+    <!-- popup section start -->
+    <div class="container">
+
+        <div id="pop" class="popup">
+            <h1>Congrates!</h1>
+            <img src="images/coin.png" alt="">
+            <p>You Have Donated for Humankind</p>
+            <h2>successfully</h2>
+            <button type="button" onclick="closepopup()">Close confirmation</button>
+        </div>
+    </div>
+    <!-- popup section end -->
+
+    <script src="js/donate.js"></script>
+    <script src="js/utilities.js"></script>
+    <script src="js/features.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/donate1.js"></script>
+    <script src="js/donate2.js"></script>
+
+</body>
+
+</html>

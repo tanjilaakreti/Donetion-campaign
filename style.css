@@ -49,6 +49,11 @@
     align-items: center;
 }
 
+.transac {
+    font-size: 20px;
+    font-weight: 600;
+}
+
 .container {
     width: 100%;
     background-color: aliceblue;

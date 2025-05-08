@@ -25,6 +25,11 @@ document.getElementById('btn-withdraw-2').addEventListener('click', function () 
 
     const currentBalanceTotal = preBalanceTotal - newWithdrawAmount;
     balanceTotalElement.innerText = currentBalanceTotal;
+
+    // transaction section
+    const h2 = document.createElement('h2');
+    h2.innerText = `${newWithdrawAmount} Taka is Donate for Aid for Injured in the Quota Movement, Bangladesh`;
+    document.getElementById('transaction-section-3').appendChild(h2);
 })
 
 

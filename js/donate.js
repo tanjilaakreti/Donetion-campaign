@@ -24,11 +24,12 @@ document.getElementById('btn-withdraw').addEventListener('click', function () {
 
     const currentBalanceTotal = preBalanceTotal - newWithdrawAmount;
     balanceTotalElement.innerText = currentBalanceTotal;
+
+    // transaction section
+    const h2 = document.createElement('h2');
+    h2.innerText = `${newWithdrawAmount} Taka is Donate for famine-2024 at Feni, Bangladesh`;
+    document.getElementById('transaction-section-1').appendChild(h2);
 })
 
-// transaction section
-const h2 = document.createElement('h2');
-h2.innerText = `${addMoney} Taka is Donate for famine-2024 at Feni, Bangladesh`
-document.getElementById('transaction-section-1').appendChild(h2);
 
 

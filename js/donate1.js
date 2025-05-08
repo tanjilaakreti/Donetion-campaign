@@ -25,6 +25,11 @@ document.getElementById('btn-withdraw-1').addEventListener('click', function () 
 
     const currentBalanceTotal = preBalanceTotal - newWithdrawAmount;
     balanceTotalElement.innerText = currentBalanceTotal;
+
+    // transaction section
+    const h2 = document.createElement('h2');
+    h2.innerText = `${newWithdrawAmount} Taka is Donate for Flood Relief in Feni, Bangladesh`;
+    document.getElementById('transaction-section-2').appendChild(h2);
 })
 
 
